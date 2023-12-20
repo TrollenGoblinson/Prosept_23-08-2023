@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "prosept-yandex"
+version = "0.1.0"
+description = ""
+authors = ["Anna Kudriaeva <anna.kudriaeva@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.3"
+scikit-learn = "^1.3.2"
+catboost = "^1.2.2"
+regex = "^2023.10.3"
+nltk = "^3.8.1"
+transliterate = "^1.10.2"
+pymystem3 = "^0.2.0"
+num2words = "^0.5.13"
+isort = "^5.12.0"
+black = "^23.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
